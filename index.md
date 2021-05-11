@@ -22,8 +22,8 @@ This method can be used by artists to automatically create realistic virtual cos
 
 ### Video examples:
 
-<iframe  style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/zA18a8-R6Wg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe style="display: block; margin: auto;"  width="560" height="315" src="https://www.youtube.com/embed/hHOZX6U_nqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/GmciY9rUMOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display: block; margin: auto;"  width="560" height="315" src="https://www.youtube.com/embed/0dMrf0yZvUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Paper:
 
