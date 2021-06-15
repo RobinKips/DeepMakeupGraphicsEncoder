@@ -13,7 +13,7 @@
 	<img width="70%" src="images/example_transfer_armani (3).png"/>
 </p>
 
-<--!
+<!--
 ![example_style_transfer](images/example_transfer_armani (3).png)
 -->
 
@@ -35,6 +35,7 @@ This method can be used by artists to automatically create realistic virtual cos
 Paper : [CVPR Workshop proceedings (TBD)](tbd.com) \
 ArXiv : [https://arxiv.org/pdf/2105.06407.pdf](https://arxiv.org/pdf/2105.06407.pdf) \
 Supplementary Materials : [CVPR Workshop supplementary (TBD)](tbd.com)
+<!--
  <div align="center" style="display:flex; margin-bottom:50px; margin-top: 30px;">
     <div style="width:20%;display: inline-block;">    
         <a href="https://arxiv.org/pdf/2105.06407.pdf" target="_blank">
@@ -53,7 +54,7 @@ Supplementary Materials : [CVPR Workshop supplementary (TBD)](tbd.com)
         </div>
     </div>
 </div>
-
+-->
 
 ### Model Architecture:
 Left:  training procedure of our model.  We sample a graphics parameters vectorgiand render a corresponding image using a renderer *R* and a random source image *X_i*.  Then, the inverse graphics encoder *E* is trained to map the image to the space of graphics parameters with minimum error. Right: inference pipeline. A reference image *X_ref* is passed to the inverse graphics encoder to estimate the corresponding makeup graphics parameters. Then this code can be used as input to the rendering engine, to render the reference makeup on videos in real-time. To facilitate training and increase the proportion of relevant pixels in the image, *E* is trained on crops of eyes and lips.
