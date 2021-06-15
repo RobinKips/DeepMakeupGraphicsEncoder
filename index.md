@@ -5,7 +5,7 @@
 
 
 <p align="center">
-   <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/loreal_research.png">  <img  style="width: 12%;margin: 2.5%;" width="40%" src="images/telecom_icon.png">   <img  style="width: 34%;margin: 2.5%;" width="40%" src="images/idp_icon.png">
+   <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/loreal_research.png"> <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/modiface_icon.png">  <img  style="width: 12%;margin: 2.5%;" width="40%" src="images/telecom_icon.png">   <img  style="width: 34%;margin: 2.5%;" width="40%" src="images/idp_icon.png">
 </p>
 
 
@@ -31,15 +31,15 @@ ArXiv : [https://arxiv.org/pdf/2105.06407.pdf) \
 Supplementary Materials : [CVPR Workshop supplementary, TBD](tbd.com)
  <div align="center" style="display:flex; margin-bottom:50px; margin-top: 30px;">
     <div style="width:20%;display: inline-block;">    
-        <a href="https://arxiv.org/abs/2008.10298" target="_blank">
+        <a href="https://arxiv.org/pdf/2105.06407.pdf" target="_blank">
             <img class="layered-paper-big" style="max-height:200px" src="images/ca_gan_paper-page-001.jpg">
         </a>
     </div>
     <div style="width:70%;display: flex; align-items: center; margin-left: 5%;">
         <div style="text-align: left;">
-            <span style="font-size:12pt">R. Kips, P. Gori, M. Perrot, I.Bloch</span><br>
+            <span style="font-size:12pt">R. Kips, R. Jiang, S. Ba, A. Phung, P. Aarabi, P. Gori, M. Perrot, I.Bloch</span><br>
             <span style="font-size:12pt">
-                <b>CA-GAN: Weakly Supervised Color Aware GAN for Controllable Makeup Transfer</b>
+                <b>Deep Graphics Encoder for Real-Time Video Makeup Synthesis from Example</b>
             </span>
             <br>
             <span style="font-size:12pt">AIM20 (ECCV20 Workshop)</span>
