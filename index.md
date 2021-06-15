@@ -56,7 +56,7 @@ Supplementary Materials : [CVPR Workshop supplementary (TBD)](tbd.com)
 </div>
 -->
 
-### Model Architecture:
+### Model architecture:
 Left:  training procedure of our model.  We sample a graphics parameters vectorgiand render a corresponding image using a renderer *R* and a random source image *X_i*.  Then, the inverse graphics encoder *E* is trained to map the image to the space of graphics parameters with minimum error. Right: inference pipeline. A reference image *X_ref* is passed to the inverse graphics encoder to estimate the corresponding makeup graphics parameters. Then this code can be used as input to the rendering engine, to render the reference makeup on videos in real-time. To facilitate training and increase the proportion of relevant pixels in the image, *E* is trained on crops of eyes and lips.
 
 <!-- ![model_archi](images/mode_pipeline.png =250x) -->
@@ -64,13 +64,12 @@ Left:  training procedure of our model.  We sample a graphics parameters vectorg
 	<img width="140%" src="images/model_pipeline (6).png"/>
 </p>
 
-### Results:
+### Lipstick and eye ehadow synthesis from example image
 
-Lipstick synthesis from example image
 ![results_lips](images/lips_full_face (1).png)
 
-Eye shadow synthesis from example image
 ![results_eye](images/eye_shadow_full_face (1).png)
 
-Below, a qualitative comparison on lipstick and eye-shadow synthesis against state of the art makeup transfer methods. Our method is capable of reproducing realistic rendering in high resolution for makeup with various colors and textures. The eye-shadow application zone and intensity are not part of the estimated graphics parameters, but set by the user at rendering time according to their preferences.
+### Qualitative evaluation
+Qualitative comparison on lipstick and eye-shadow synthesis against state of the art makeup transfer methods. Our method is capable of reproducing realistic rendering in high resolution for makeup with various colors and textures. The eye-shadow application zone and intensity are not part of the estimated graphics parameters, but set by the user at rendering time according to their preferences.
 ![results_vs_transfer](images/qualitative_both (2).png)
