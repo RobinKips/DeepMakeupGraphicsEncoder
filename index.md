@@ -5,7 +5,7 @@
 
 
 <p align="center">
-   <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/loreal_research.png"> <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/modiface_icon.jpg">  <img  style="width: 12%;margin: 2.5%;" width="40%" src="images/telecom_icon.png">   <img  style="width: 34%;margin: 2.5%;" width="40%" src="images/idp_icon.png">
+   <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/loreal_research.png"> <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/modiface_icon_bis.jpg">  <img  style="width: 12%;margin: 2.5%;" width="40%" src="images/telecom_icon.png">   <img  style="width: 34%;margin: 2.5%;" width="40%" src="images/idp_icon.png">
 </p>
 
 
@@ -35,26 +35,7 @@ This method can be used by artists to automatically create realistic virtual cos
 Paper : [CVPR Workshop proceedings (TBD)](tbd.com) \
 ArXiv : [https://arxiv.org/pdf/2105.06407.pdf](https://arxiv.org/pdf/2105.06407.pdf) \
 Supplementary Materials : [CVPR Workshop supplementary (TBD)](tbd.com)
-<!--
- <div align="center" style="display:flex; margin-bottom:50px; margin-top: 30px;">
-    <div style="width:20%;display: inline-block;">    
-        <a href="https://arxiv.org/pdf/2105.06407.pdf" target="_blank">
-            <img class="layered-paper-big" style="max-height:200px" src="images/ca_gan_paper-page-001.jpg">
-        </a>
-    </div>
-    <div style="width:70%;display: flex; align-items: center; margin-left: 5%;">
-        <div style="text-align: left;">
-            <span style="font-size:12pt">R. Kips, R. Jiang, S. Ba, A. Phung, P. Aarabi, P. Gori, M. Perrot, I.Bloch</span><br>
-            <span style="font-size:12pt">
-                <b>Deep Graphics Encoder for Real-Time Video Makeup Synthesis from Example</b>
-            </span>
-            <br>
-            <span style="font-size:12pt">AIM20 (ECCV20 Workshop)</span>
-            <span style="font-size:12pt"><a href="https://arxiv.org/abs/2008.10298" target="_blank">[arXiv]</a>&nbsp;<a href="bibtex.txt" target="_blank">[BibTeX]</a>&nbsp;<a href="ca_gan_supplementary.pdf" target="_blank">[Supplementary Materials]</a></span>
-        </div>
-    </div>
-</div>
--->
+
 
 ### Model architecture:
 Left:  training procedure of our model.  We sample a graphics parameters vectorgiand render a corresponding image using a renderer *R* and a random source image *X_i*.  Then, the inverse graphics encoder *E* is trained to map the image to the space of graphics parameters with minimum error. Right: inference pipeline. A reference image *X_ref* is passed to the inverse graphics encoder to estimate the corresponding makeup graphics parameters. Then this code can be used as input to the rendering engine, to render the reference makeup on videos in real-time. To facilitate training and increase the proportion of relevant pixels in the image, *E* is trained on crops of eyes and lips.
