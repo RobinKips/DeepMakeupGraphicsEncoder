@@ -11,7 +11,7 @@
 
 
 ![example_style_transfer](images/example_transfer_armani (3).png)
-
+Examples of lipstick transfer from example images usingour proposed method
 
 ### Abstract:
 While makeup virtual-try-on is now widespread, parametrizing a computer graphics rendering engine for synthesizing images of a given cosmetics product remains a challenging task.
@@ -26,9 +26,9 @@ This method can be used by artists to automatically create realistic virtual cos
 
 ### Paper:
 
-Paper : [CVPR Workshop proceedings](tbd.com) \
-ArXiv : [https://arxiv.org/pdf/2105.06407.pdf) \
-Supplementary Materials : [CVPR Workshop supplementary, TBD](tbd.com)
+Paper : [CVPR Workshop proceedings (TBD)](tbd.com) \
+ArXiv : [https://arxiv.org/pdf/2105.06407.pdf](https://arxiv.org/pdf/2105.06407.pdf) \
+Supplementary Materials : [CVPR Workshop supplementary (TBD)](tbd.com)
  <div align="center" style="display:flex; margin-bottom:50px; margin-top: 30px;">
     <div style="width:20%;display: inline-block;">    
         <a href="https://arxiv.org/pdf/2105.06407.pdf" target="_blank">
@@ -50,21 +50,20 @@ Supplementary Materials : [CVPR Workshop supplementary, TBD](tbd.com)
 
 
 ### Model Architecture:
-The training procedure of our CA-GAN model. First (a) the generator G estimates an image from a source image and a target makeup color. Secondly (b) the discriminator D estimates the makeup color, skin color and a real/fake classification from the generated image, used to compute the color regression loss L_color, background consistency loss *L_bg* and adversarial loss *L_adv*, respectively. Thirdly (c), the source image is reconstructed from the generated one using the makeup color as target. The reconstruction is used to compute the cycle consistency loss *L_cycle*.
+Left:  training procedure of our model.  We sample a graphics parameters vectorgiand render a corresponding image using a renderer *R* and a random source image *X_i*.  Then, the inverse graphics encoder *E* is trained to map the image to the space of graphics parameters with minimum error. Right: inference pipeline. A reference image *X_ref* is passed to the inverse graphics encoder to estimate the corresponding makeup graphics parameters. Then this code can be used as input to the rendering engine, to render the reference makeup on videos in real-time. To facilitate training and increase the proportion of relevant pixels in the image, *E* is trained on crops of eyes and lips.
+
 <!-- ![model_archi](images/mode_pipeline.png =250x) -->
 <p align="center">
-	<img width="70%" src="images/model_pipeline (6).png"/>
+	<img width="120%" src="images/model_pipeline (6).png"/>
 </p>
 
 ### Results:
 
-Modification of makeup color along each dimension of the *CIE Lab* color space, using images from our social media dataset.
-The color patch on the bottom-right of each image illustrates the target color passed to the model.
-Our approach generalizes to lips and eyes images with various makeup textures and facial poses.
-
+Lipstick synthesis from example image
 ![results_lips](images/lips_full_face (1).png)
+
+Eye shadow synthesis from example image
 ![results_eye](images/eye_shadow_full_face (1).png)
 
-Our model shows makeup style transfer performances that are equivalent to state of the art models, while obtaining better preservation of the skin color of the source subject.
-
+Below, a qualitative comparison on lipstick and eye-shadow synthesis against state of the art makeup transfer methods. Our method is capable of reproducing realistic rendering in high resolution for makeup with various colors and textures. The eye-shadow application zone and intensity are not part of the estimated graphics parameters, but set by the user at rendering time according to their preferences.
 ![results_vs_transfer](images/qualitative_both (2).png)
