@@ -53,4 +53,7 @@ Left:  training procedure of our model.  We sample a graphics parameters vectorg
 
 ### Qualitative evaluation
 Qualitative comparison on lipstick and eye-shadow synthesis against state of the art makeup transfer methods. Our method is capable of reproducing realistic rendering in high resolution for makeup with various colors and textures. The eye-shadow application zone and intensity are not part of the estimated graphics parameters, but set by the user at rendering time according to their preferences.
-![results_vs_transfer](images/qualitative_both (2).png)
+
+<p align="center">
+	<img width="120%" src="images//qualitative_both (2).png"/>
+</p>
