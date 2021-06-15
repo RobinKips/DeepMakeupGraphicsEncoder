@@ -10,7 +10,7 @@
 
 
 
-![example_style_transfer](images/full_face_shades.png)
+![example_style_transfer](images/example_transfer_armani (3).png)
 
 
 ### Abstract:
@@ -53,7 +53,7 @@ Supplementary Materials : [CVPR Workshop supplementary, TBD](tbd.com)
 The training procedure of our CA-GAN model. First (a) the generator G estimates an image from a source image and a target makeup color. Secondly (b) the discriminator D estimates the makeup color, skin color and a real/fake classification from the generated image, used to compute the color regression loss L_color, background consistency loss *L_bg* and adversarial loss *L_adv*, respectively. Thirdly (c), the source image is reconstructed from the generated one using the makeup color as target. The reconstruction is used to compute the cycle consistency loss *L_cycle*.
 <!-- ![model_archi](images/mode_pipeline.png =250x) -->
 <p align="center">
-	<img width="70%" src="images/mode_pipeline.png"/>
+	<img width="70%" src="images/model_pipeline (6).png"/>
 </p>
 
 ### Results:
@@ -62,8 +62,9 @@ Modification of makeup color along each dimension of the *CIE Lab* color space, 
 The color patch on the bottom-right of each image illustrates the target color passed to the model.
 Our approach generalizes to lips and eyes images with various makeup textures and facial poses.
 
-![results_grid](images/closeup_editing_square_bis.png)
+![results_lips](images/lips_full_face (1).png)
+![results_eye](images/eye_shadow_full_face (1).png)
 
 Our model shows makeup style transfer performances that are equivalent to state of the art models, while obtaining better preservation of the skin color of the source subject.
 
-![style_quali](images/style_transfer_quali.png)
+![results_vs_transfer](images/qualitative_both (2).png)
