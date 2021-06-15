@@ -9,8 +9,14 @@
 </p>
 
 
+<p align="center">
+	<img width="70%" src="images/example_transfer_armani (3).png"/>
+</p>
 
+<--!
 ![example_style_transfer](images/example_transfer_armani (3).png)
+-->
+
 Examples of lipstick transfer from example images usingour proposed method
 
 ### Abstract:
@@ -54,7 +60,7 @@ Left:  training procedure of our model.  We sample a graphics parameters vectorg
 
 <!-- ![model_archi](images/mode_pipeline.png =250x) -->
 <p align="center">
-	<img width="120%" src="images/model_pipeline (6).png"/>
+	<img width="140%" src="images/model_pipeline (6).png"/>
 </p>
 
 ### Results:
