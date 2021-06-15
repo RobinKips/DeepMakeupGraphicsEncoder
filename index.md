@@ -1,11 +1,11 @@
 # Deep Graphics Encoder for Real-Time Video Makeup Synthesis from Example
 <div>
-    <h2><a style="width: 20%;margin: 2.5%;" href="https://www.linkedin.com/in/robin-kips" target="_blank">Robin Kips</a><a style="width: 20%;margin: 2.5%;" href="https://www.linkedin.com/in/ruowei-irene-jiang-a1743576/" target="_blank">Ruowei Jiang</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/sileyeba/" target="_blank">Sileye Ba</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/edmundp/" target="_blank">Edmund Phung</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/parhamaarabi/" target="_blank">Parham Aarabi</a><a style="width: 10%;margin: 2.5%;"   href="https://www.linkedin.com/in/pietro-gori-b097bb118/" target="_blank">Pietro Gori</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/matthieu-perrot-225ab01b/" target="_blank">Matthieu Perrot</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/isabelle-bloch-b954144/" target="_blank">Isabelle Bloch</a></h2>
+    <h2><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/robin-kips" target="_blank">Robin Kips</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/ruowei-irene-jiang-a1743576/" target="_blank">Ruowei Jiang</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/sileyeba/" target="_blank">Sileye Ba</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/edmundp/" target="_blank">Edmund Phung</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/parhamaarabi/" target="_blank">Parham Aarabi</a><a style="width: 10%;margin: 2.5%;"   href="https://www.linkedin.com/in/pietro-gori-b097bb118/" target="_blank">Pietro Gori</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/matthieu-perrot-225ab01b/" target="_blank">Matthieu Perrot</a><a style="width: 10%;margin: 2.5%;" href="https://www.linkedin.com/in/isabelle-bloch-b954144/" target="_blank">Isabelle Bloch</a></h2>
 </div>
 
 
 <p align="center">
-   <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/loreal_research.png"> <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/modiface_icon.png">  <img  style="width: 12%;margin: 2.5%;" width="40%" src="images/telecom_icon.png">   <img  style="width: 34%;margin: 2.5%;" width="40%" src="images/idp_icon.png">
+   <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/loreal_research.png"> <img  style="width: 32%;margin: 2.5%;" width="40%" src="images/modiface_icon.jpg">  <img  style="width: 12%;margin: 2.5%;" width="40%" src="images/telecom_icon.png">   <img  style="width: 34%;margin: 2.5%;" width="40%" src="images/idp_icon.png">
 </p>
 
 
