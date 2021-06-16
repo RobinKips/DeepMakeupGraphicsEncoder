@@ -32,10 +32,20 @@ This method can be used by artists to automatically create realistic virtual cos
 
 ### Paper:
 
-Paper : [CVPR Workshop proceedings (TBD)](tbd.com) \
+Paper : [CVPR Workshop proceedings](https://openaccess.thecvf.com/content/CVPR2021W/CVFAD/papers/Kips_Deep_Graphics_Encoder_for_Real-Time_Video_Makeup_Synthesis_From_Example_CVPRW_2021_paper.pdf) \
 ArXiv : [https://arxiv.org/pdf/2105.06407.pdf](https://arxiv.org/pdf/2105.06407.pdf) \
-Supplementary Materials : [CVPR Workshop supplementary (TBD)](tbd.com)
-
+Supplementary Materials : [CVPR Workshop supplementary](https://openaccess.thecvf.com/content/CVPR2021W/CVFAD/supplemental/Kips_Deep_Graphics_Encoder_CVPRW_2021_supplemental.pdf)
+Bibtex : 
+```
+@InProceedings{Kips_2021_CVPR,
+    author    = {Kips, Robin and Jiang, Ruowei and Ba, Sileye and Phung, Edmund and Aarabi, Parham and Gori, Pietro and Perrot, Matthieu and Bloch, Isabelle},
+    title     = {Deep Graphics Encoder for Real-Time Video Makeup Synthesis From Example},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2021},
+    pages     = {3889-3893}
+}
+```
 
 ### Model architecture:
 Left:  training procedure of our model.  We sample a graphics parameters vectorgiand render a corresponding image using a renderer *R* and a random source image *X_i*.  Then, the inverse graphics encoder *E* is trained to map the image to the space of graphics parameters with minimum error. Right: inference pipeline. A reference image *X_ref* is passed to the inverse graphics encoder to estimate the corresponding makeup graphics parameters. Then this code can be used as input to the rendering engine, to render the reference makeup on videos in real-time. To facilitate training and increase the proportion of relevant pixels in the image, *E* is trained on crops of eyes and lips.
