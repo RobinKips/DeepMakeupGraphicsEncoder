@@ -33,8 +33,9 @@ This method can be used by artists to automatically create realistic virtual cos
 ### Paper:
 
 Paper : [CVPR Workshop proceedings](https://openaccess.thecvf.com/content/CVPR2021W/CVFAD/papers/Kips_Deep_Graphics_Encoder_for_Real-Time_Video_Makeup_Synthesis_From_Example_CVPRW_2021_paper.pdf) \
+Supplementary Materials : [CVPR Workshop supplementary](https://openaccess.thecvf.com/content/CVPR2021W/CVFAD/supplemental/Kips_Deep_Graphics_Encoder_CVPRW_2021_supplemental.pdf) \
 ArXiv : [https://arxiv.org/pdf/2105.06407.pdf](https://arxiv.org/pdf/2105.06407.pdf) \
-Supplementary Materials : [CVPR Workshop supplementary](https://openaccess.thecvf.com/content/CVPR2021W/CVFAD/supplemental/Kips_Deep_Graphics_Encoder_CVPRW_2021_supplemental.pdf)
+
 Bibtex : 
 ```
 @InProceedings{Kips_2021_CVPR,
