@@ -29,7 +29,7 @@ This method can be used by artists to automatically create realistic virtual cos
 <iframe  style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/GmciY9rUMOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe style="display: block; margin: auto;"  width="560" height="315" src="https://www.youtube.com/embed/0dMrf0yZvUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Videp presentation : 
+### Video presentation : 
 Available on the website of [AI for Content Creation CVPR Worskshop](http://visual.cs.brown.edu/workshops/aicc2021/)
 
 ### Paper:
