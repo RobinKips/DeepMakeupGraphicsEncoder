@@ -24,11 +24,13 @@ While makeup virtual-try-on is now widespread, parametrizing a computer graphics
 In this paper, we introduce an inverse computer graphics method for automatic makeup synthesis from a reference image, by learning a model that maps an example portrait image with makeup to the space of rendering parameters. 
 This method can be used by artists to automatically create realistic virtual cosmetics image samples, or by consumers, to virtually try-on a makeup extracted from their favourite reference image.
 
-
 ### Video examples:
 
 <iframe  style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/GmciY9rUMOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe style="display: block; margin: auto;"  width="560" height="315" src="https://www.youtube.com/embed/0dMrf0yZvUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Videp presentation : 
+Available on the website of [AI for Content Creation CVPR Worskshop](http://visual.cs.brown.edu/workshops/aicc2021/)
 
 ### Paper:
 
